@@ -170,7 +170,7 @@ def run():
 
 
 # Determining the primary path based on the system
-if "PREFIX" in os.environ
+if "PREFIX" in os.environ:
 
     #Path for Termux
     base_path = os.path.join(os.environ["PREFIX"], "usr/share/drdos")

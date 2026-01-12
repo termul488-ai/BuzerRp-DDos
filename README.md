@@ -1,1 +1,1 @@
-# Buzer-DDos
+# BuzerRp-DDos

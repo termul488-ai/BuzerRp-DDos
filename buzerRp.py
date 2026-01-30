@@ -180,8 +180,8 @@ async def run_stress_test(url: str, duration: int, concurrency: int,
                 stdout.write(f"\r{Fore.BLUE}| [*]{Fore.RED} {remaining:6.2f} {Fore.BLUE} Sec left{' ' * 26}|")
                 stdout.flush()
                 # Tambahkan gaya progress seperti countdown asli
-                stdout.write(f"\r{Fore.CYAN} Attack has been completed|\n")
-                print(f"{Fore.YELLOW}{'═' * 69}")
+                print(f"\r{Fore.YELLOW}: Sending request {url} Remaining time {remaining_time:.2f} Sec left{' ' * 26}")
+            
             else:
                 await asyncio.sleep(0.5)
 
